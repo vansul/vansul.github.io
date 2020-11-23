@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+## Hi there 👋🏻 
 
-You can use the [editor on GitHub](https://github.com/vansul/vansul.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+###  🙋🏻‍♂️ My name is Vaibhav Kaushik
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vansul/vansul.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- 🏫 I'm currently studying in 8th Grade at Kendriya Vidyalaya Roing in :india:
+- 🌱 I’m currently learning [TensorFlow](https://www.tensorflow.org/), [PyTorch](https://pytorch.org/) and [RedwoodJS](https://redwoodjs.com/).
+- 💬 Ask me about [Java](https://www.java.com), [Python](https://python.org), JavaScript, [TypeScript](https://www.typescriptlang.org), [Node.JS](https://nodejs.org), [Deno](https://deno.land), [GraphQL](https://grpahql.org), [React](https://reactjs.org), [Angular](https://angular.io), [Vue](https://vuejs.org), [MongoDB](https://mongodb.com), [Flutter](https://flutter.dev), [Dart](https://dart.dev), [Processing](https://processing.org), [p5.js](https://p5js.org) and [Prisma](https://prisma.io).
+- 📫 How to reach me: :email:[Email](vansul.ask@hotmail.com) 🔗[Website](https://vansul.ml/)
+- ⚡ Fun fact: I never lies🤞🏻
