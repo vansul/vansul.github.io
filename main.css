@@ -46,7 +46,7 @@ a:hover:after {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  text-shadow: calc(0.0233333333 * 3em) calc(0.0233333333 * 3em) 0px #d2d2d22e;
+  text-shadow: calc(7 / 300 * 3em) calc(7 / 300 * 3em) 0px #d2d2d22e;
 }
 
 .text-1 {
