@@ -42,9 +42,10 @@
     </div>
 
     <script>
-      document.documentElement.setAttribute('data-theme', localStorage.getItem('theme') === 'dark' ? 'dark' : 'light');      
-
       const checkbox = document.querySelector('input[name=theme]');
+      const dark = localStorage.getItem('theme') === 'dark';
+      document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+      checkbox.checked = dark;
 
       checkbox.addEventListener('change', (e) => {
         if (e.target.checked) {
