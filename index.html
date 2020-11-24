@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="About Vaibhav Kaushik" />
@@ -42,6 +42,8 @@
     </div>
 
     <script>
+      document.documentElement.setAttribute('data-theme', localStorage.getItem('theme') === 'dark' ? 'dark' : 'light');      
+
       const checkbox = document.querySelector('input[name=theme]');
 
       checkbox.addEventListener('change', (e) => {
@@ -54,6 +56,7 @@
 
       const trans = (dark) => {
         document.documentElement.classList.add('transition');
+        localStorage.setItem('theme', dark ? 'dark' : 'light');
         document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
         window.setTimeout(() => {
           document.documentElement.classList.remove('transition')
