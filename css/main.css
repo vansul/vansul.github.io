@@ -11,8 +11,6 @@ html[data-theme='dark'] {
 }
 
 html.transition,
-html.transition h1,
-html.transition p,
 html.transition *,
 html.transition *:before,
 html.transition *:after {
