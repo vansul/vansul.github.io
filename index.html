@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="About Vaibhav Kaushik">
+    <meta name="description" content="About Vaibhav Kaushik" />
     <meta name="author" content="Vaibhav Kaushik" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -18,21 +18,47 @@
     <title>vansul - Vaibhav Kaushik</title>
   </head>
   <body>
-    <h1>Hello.</h1>
-    <p style="font-weight: 500; font-size: 2.2em; display: inline;">
-      I am Vaibhav Kaushik, simply
-      <div class="text text-1">@</div><div class="text text-2">v</div><div class="text text-5">a</div><div class="text text-4">n</div><div class="text text-6">s</div><div class="text text-7">u</div><div class="text text-3">l</div>
-      .
-    </p>
-    <p>
-      I am an 8th-grade middle school student studying at Kendriya Vidyalaya
-      Roing in India. My
-      <a href="https://kuldeep.guru/" target="_blank" title="Kuldeep Sharma">father</a> taught
-      me coding when I was in 2nd-grade and now I can write code in every major
-      language. Currently, I am having an interest in JAMStack and I am
-      exploring deep inside this topic. You can see my
-      <a href="https://github.com/vansul" target="_blank">GitHub</a> and
-      <a href="https://dev.to/vansul" target="_blank">Dev</a> profile.
-    </p>
+    <div class="container">
+      <h1>Hello.</h1>
+      <p style="font-weight: 500; font-size: 2.2em; display: inline-block">
+        I am Vaibhav Kaushik, simply&nbsp;<div class="text text-1">@</div><div class="text text-2">v</div><div class="text text-5">a</div><div class="text text-4">n</div><div class="text text-6">s</div><div class="text text-7">u</div><div class="text text-3">l</div>.
+      </p>
+      <p>
+        I am an 8th-grade middle school student studying at Kendriya Vidyalaya
+        Roing in India. My
+        <a href="https://kuldeep.guru/" target="_blank" title="Kuldeep Sharma"
+          >father</a
+        >
+        taught me coding when I was in 2nd-grade and now I can write code in
+        every major language. Currently, I am having an interest in JAMStack and
+        I am exploring deep inside this topic. You can see my
+        <a href="https://github.com/vansul" target="_blank">GitHub</a> and
+        <a href="https://dev.to/vansul" target="_blank">Dev</a> profile.
+      </p>
+    </div>
+    <div class="toggle-dark">
+      <input type="checkbox" name="theme" id="switch" />
+      <label for="switch">Toggle</label>
+    </div>
+
+    <script>
+      const checkbox = document.querySelector('input[name=theme]');
+
+      checkbox.addEventListener('change', (e) => {
+        if (e.target.checked) {
+          trans(true);
+        } else {
+          trans(false);
+        }
+      });
+
+      const trans = (dark) => {
+        document.documentElement.classList.add('transition');
+        document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+        window.setTimeout(() => {
+          document.documentElement.classList.remove('transition')
+        }, 750)
+      }
+    </script>
   </body>
 </html>
